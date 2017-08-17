@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lol-academy</title>
+        <meta name="description" content="Interaktywny poradnik szybkiego startu dla Brackets.">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <style>
+            .line{
+                border-left: 1px solid black;
+            }
+            body{
+            background-image: url("https://vignette2.wikia.nocookie.net/leagueoflegends/images/4/41/Dragon_OriginalSkin.jpg/revision/latest?cb=20151202202627");
+            background-repeat:no-repeat;
+            background-attachment: fixed
+            }
+        </style>
+    </head>
+    <body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container text-center"> 
+    <br>
+     <div class="jumbotron">
+            <h1>Lol Academy</h1> 
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+    responsive, mobile-first projects on the web.</p> 
+  <p>This is some text.</p> 
+  <p>This is another text.</p>     
+    </div> 
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <h3>Current Patch 7.16</h3>
+      <a href="http://euw.leagueoflegends.com/en/news/game-updates/patch/patch-716-notes">Read patch notes</a>
+      <div class="matches">
+      <h1>Upcomming Matches</h1>
+      <h3><a href="#">G2 vs H2K</a></h3>
+      <h3><a href="#">Unicorns of love vs Roccat</a></h3>
+      <h3><a href="#">Fnatic vs Misfits</a></h3>
+      </div>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 class="rotation-title">Current Free Champion Rotation</h1>
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Illaoi_0.jpg" alt="Ilaoi">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Irelia_0.jpg" alt="Irelia">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Karthus_0.jpg" alt="Karthus">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Shaco_0.jpg" alt="Shaco">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Brand_0.jpg" alt="Brand">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Heimerdinger_0.jpg" alt="Heimerdinger">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Kayn_0.jpg" alt="Kayn">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Maokai_0.jpg" alt="Maokai">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Quinn_0.jpg" alt="Quinn">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Singed_0.jpg" alt="Singed">
+      <img class="rotation-image"width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Sivir_0.jpg" alt="Sivir">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/TahmKench_0.jpg" alt="TahmKench">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Teemo_0.jpg" alt="Teemo">
+      <img class="rotation-image" width="80" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Twitch_0.jpg" alt="Twitch">
+      <hr>
+      </div>
+
+    <div class="col-sm-2 sidenav">
+    <br>
+    <table class="table table-bordered">
+     <thead>
+     <tr>
+        <td><h3>Europe Group A</h3></td>
+      </tr>
+     </thead>
+      <tr>
+        <td class="fnatic">Fnatic</td>
+      </tr>
+      <tr>
+        <td>G2 Esports</td>
+        <td>8/4</td>
+      </tr>
+      <tr>
+        <td>Misfits</td>
+        <td>6/6</td>
+      </tr>
+      <tr>
+        <td>Roccat</td>
+        <td>4/8</td>
+      </tr>
+      <tr>
+        <td>Ninjas in Pyjamas</td>
+        <td>2/11</td>
+      </tr>
+        </table>
+            <table class="table table-bordered">
+     <thead>
+     <tr>
+        <td><h3>Europe Group B</h3></td>
+      </tr>
+     </thead>
+      <tr>
+        <td>H2K</td>
+        <td>8/3</td>
+      </tr>
+      <tr>
+        <td>Unicorns of Love</td>
+        <td>8/3</td>
+      </tr>
+      <tr>
+        <td>Splyce</td>
+        <td>7/5</td>
+      </tr>
+      <tr>
+        <td>Team Vitality</td>
+        <td>4/7</td>
+      </tr>
+      <tr>
+        <td>Mysterious Monkeys</td>
+        <td>2/10</td>
+      </tr>
+        </table>
+                    <table class="table table-bordered">
+     <thead>
+     <tr>
+        <td><h3>North America</h3></td>
+      </tr>
+     </thead>
+      <tr>
+        <td>TSM</td>
+        <td>14/4</td>
+      </tr>
+      <tr>
+        <td>Immortals</td>
+        <td>14/4</td>
+      </tr>
+      <tr>
+        <td>Counter Logic Gaming</td>
+        <td>12/6</td>
+      </tr>
+      <tr>
+        <td>Cloud 9</td>
+        <td>12/6</td>
+      </tr>
+      <tr>
+        <td>Team Dignitas</td>
+        <td>11/7</td>
+      </tr>
+      <tr>
+        <td>Team Envy</td>
+        <td>8/10</td>
+      </tr>
+      <tr>
+        <td>FlyQuest</td>
+        <td>6/12</td>
+      </tr>
+      <tr>
+        <td>Echo Fox</td>
+        <td>5/13</td>
+      </tr>
+      <tr>
+        <td>Team Liquid</td>
+        <td>4/14</td>
+      </tr>
+      <tr>
+        <td>Phoenix1</td>
+        <td>4/14</td>
+      </tr>
+        </table>
+    <table class="table table-bordered">
+     <thead>
+     <tr>
+        <td><h3>LCK</h3></td>
+      </tr>
+     </thead>
+      <tr>
+        <td>Longzhu Gaming</td>
+        <td>14/4</td>
+      </tr>
+      <tr>
+        <td>kt Rolster</td>
+        <td>14/4</td>
+      </tr>
+      <tr>
+        <td>Samsung GALAXY</td>
+        <td>13/5</td>
+      </tr>
+      <tr>
+        <td>SK telecom T1</td>
+        <td>13/5</td>
+      </tr>
+      <tr>
+        <td>Afreeca Freecs</td>
+        <td>10/8</td>
+      </tr>
+      <tr>
+        <td>Jin Air GreenWings</td>
+        <td>8/10</td>
+      </tr>
+      <tr>
+        <td>ROX Tigers</td>
+        <td>6/12</td>
+      </tr>
+      <tr>
+        <td>MVP</td>
+        <td>6/12</td>
+      </tr>
+      <tr>
+        <td>bbq OLIVERS</td>
+        <td>3/15</td>
+      </tr>
+      <tr>
+        <td>Ever8 Winners</td>
+        <td>3/15</td>
+      </tr>
+        </table>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p><strong>Dzynio</strong></p>
+</footer>
+   
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+    
+$( ".fnatic" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+        
+        </script>
+    </body>
+</html>
